@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+ }
+body {
+    min-height: 100%;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 nav{
     background-color: rgb(74, 40, 138);
     display: flex;
